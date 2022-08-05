@@ -1,0 +1,70 @@
+:root {
+  --primary-color: #f8f9fa;
+  --secondary-color: #c3c7cc;
+  --the-darkest-color: #696767;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.heading {
+  padding-top: 100px;
+  text-align: center;
+}
+h1 {
+  color: #3e3a3a;
+  font-family: "Nanum Gothic", sans-serif;
+}
+h3 {
+  text-align: center;
+  color: var(--the-darkest-color);
+  font-family: "Nanum Gothic", sans-serif;
+}
+h2 {
+  font-family: "Nanum Gothic", sans-serif;
+  color: var(--the-darkest-color);
+}
+p {
+  font-family: "Nanum Gothic", sans-serif;
+  color: #535050;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.button1 {
+  border: var(--the-darkest-color);
+  box-shadow: var(--box-shadow);
+  color: var(--the-darkest-color);
+  background-color: var(--secondary-color);
+  margin: 20px;
+  border-radius: 10px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Nanum Gothic", sans-serif;
+}
+.button2 {
+  color: #6c63ff;
+  margin: 20px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  border-radius: 10px;
+  border: 1px solid var(--the-darkest-color);
+  font-family: "Nanum Gothic", sans-serif;
+}
+.button2:hover {
+  color: #696767;
+}
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--the-darkest-color);
+}
+.primary-link:hover {
+  color: #696767;
+}
