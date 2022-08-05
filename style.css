@@ -68,3 +68,6 @@ p {
 .primary-link:hover {
   color: #696767;
 }
+.greeting {
+  padding-top: 100px;
+}
