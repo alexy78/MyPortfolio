@@ -68,6 +68,10 @@ p {
 .primary-link:hover {
   color: #696767;
 }
-.greeting {
-  padding-top: 100px;
+.myprojectheading {
+  text-align: center;
+  margin: 25px 0px 50px 0px;
+}
+.button1 gobackto {
+  padding-left: 1000px;
 }
