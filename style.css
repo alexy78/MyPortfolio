@@ -87,8 +87,37 @@ p {
   padding-top: 100px;
 }
 .fa-envelopes-bulk {
-  color: #3e78db;
+  color: var(--the-darkest-color);
 }
 .fa-instagram {
-  color: #c92358;
+  color: var(--the-darkest-color);
+}
+.contact-box {
+  margin: 60px 60px;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  background-color: #312f2f;
+}
+.button {
+  border-radius: 5px;
+  padding: 5px 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--the-darkest-color);
+}
+.email-link {
+  text-decoration: none;
+  color: #312f2f;
+  font-size: 20px;
 }
