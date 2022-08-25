@@ -72,3 +72,24 @@ p {
   text-align: center;
   margin: 25px 0px 50px 0px;
 }
+.infocontact {
+  list-style: none;
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--the-darkest-color);
+  padding-left: 300px;
+}
+a:active {
+  color: var(--the-darkest-color);
+}
+.contactheading {
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.fa-envelopes-bulk {
+  color: #3e78db;
+}
+.fa-instagram {
+  color: #c92358;
+}
